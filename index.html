@@ -8,7 +8,7 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World, we are software developers!</h1>
+
     <!--
 
     Hello Camper!
@@ -21,6 +21,131 @@
     - The freeCodeCamp Team
 
     -->
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="Original Trombones logo"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Features">Features</a></li>
+          <li><a class="nav-link" href="#How_It_Works">How It Works</a></li>
+          <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <input class="btn" type="submit" id="submit" value="Get Started" />
+      </form>
+    </section>
+
+    <section id="Features">
+      <div class="services">
+        <div class="servics-list">
+          <div>
+            <i class="fa fa-fire"></i>
+          </div>
+          <div class="materials">
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="servics-list">
+          <div>
+            <i class="fa fa-truck"></i>
+          </div>
+          <div class="materials">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="servics-list">
+          <div>
+            <i class="fa fa-battery-full"></i>
+          </div>
+          <div class="materials">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="How_It_Works">
+      <iframe
+        id="video"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen=""
+        __idm_id__="57345"
+      ></iframe>
+    </section>
+
+    <section id="Pricing">
+      <div class="pricing-list">
+        <div class="payment-list">
+          <div class="instrument">TENOR TROMBONE</div>
+          <div class="payment-text">
+            <h2>$600</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button>Select</button>
+          </div>
+        </div>
+        <div class="payment-list">
+          <div class="instrument">BASS TROMBONE</div>
+          <div class="payment-text">
+            <h2>$900</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button>Select</button>
+          </div>
+        </div>
+        <div class="payment-list">
+          <div class="instrument">VALVE TROMBONE</div>
+          <div class="payment-text">
+            <h2>$1200</h2>
+            <ol>
+              <li>Plays similar to a Trumpet</li>
+              <li>Great for Jazz Bands</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button>Select</button>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/index.js"></script>
   </body>
 </html>
